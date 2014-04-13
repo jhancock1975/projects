@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FauTodo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_create_user">CreateUserActivity</string>
+    <string name="login_title">ToDo List</string>
+    <string name="login_username">Username</string>
+    <string name="login_button">Login</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_message">Username cannot be Empty</string>
+    <string name="dialog_title">Error</string>
+    <string name="login_createaccount">Create Account</string>
+    <string name="login_password">Password</string>
+    <string name="create_account">Create</string>
+    <string name="dialog_enter_all_data_message">Please complete all fields</string>
+    <string name="dialog_password_match_message">Passwords do not match</string>
+    <string name="title_activity_main_page">MainPageActivity</string>
+    <string name="main_page_title">Main Page</string>
+    <string name="add_note">Add Note</string>
+    <string name="note_list_title">Note List</string>
+    <string name="title_activity_notes_list">NotesListActivity</string>
+    <string name="current_list_title">Current List</string>
+    <string name="main_settings">Settings</string>
+
+</resources>
