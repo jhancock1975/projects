@@ -32,7 +32,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/hbase-client-0.98.1-hadoop2.jar"/>
 	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/activation-1.1.jar"/>
 	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/aopalliance-1.0.jar"/>
 	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/asm-3.1.jar"/>
@@ -81,6 +80,7 @@
 	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/hadoop-yarn-server-common-2.2.0.jar"/>
 	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/hadoop-yarn-server-nodemanager-2.2.0.jar"/>
 	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/hbase-client-0.98.1-hadoop2.jar"/>
 	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/hbase-common-0.98.1-hadoop2.jar"/>
 	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/hbase-common-0.98.1-hadoop2-tests.jar"/>
 	<classpathentry kind="lib" path="/home/john/exc/hbase-0.98.1-hadoop2/lib/hbase-examples-0.98.1-hadoop2.jar"/>
