@@ -29,11 +29,11 @@ public class HbaseConnection {
 
 		hba.createTable(ht);
 
-		System.out.println("dropping table......");
+		/*System.out.println("dropping table......");
 		
 		hba.disableTable(ht.getName());
 		
-		hba.deleteTable(ht.getName());
+		hba.deleteTable(ht.getName());*/
 		
 		hba.close();
 		
