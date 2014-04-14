@@ -3,22 +3,19 @@ package com.rootser;
 import java.io.IOException;
 
 import org.apache.hadoop.conf.Configuration;
-
 import org.apache.hadoop.hbase.HBaseConfiguration;
-
 import org.apache.hadoop.hbase.HColumnDescriptor;
-
 import org.apache.hadoop.hbase.HTableDescriptor;
-
+import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.HBaseAdmin;
 
 public class HbaseConnection {
 	public static void main(String[] args) throws IOException {
 		Configuration conf = new Configuration();
 		
-		HBaseConfiguration hc = new HBaseConfiguration(conf);
+		Configuration hc = HBaseConfiguration.create(conf);
 
-		HTableDescriptor ht = new HTableDescriptor("User");
+		HTableDescriptor ht = new HTableDescriptor( TableName.valueOf("User"));
 
 		ht.addFamily(new HColumnDescriptor("Id"));
 
@@ -32,6 +29,14 @@ public class HbaseConnection {
 
 		hba.createTable(ht);
 
-		System.out.println("Done......");
+		System.out.println("dropping table......");
+		
+		hba.disableTable(ht.getName());
+		
+		hba.deleteTable(ht.getName());
+		
+		hba.close();
+		
+		System.out.println("done");
 	}
 }
